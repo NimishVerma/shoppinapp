@@ -1,8 +1,2 @@
 /* You can add global styles to this file, and also import other style files */
-#ItemsBox{
-  border: 2px solid black;
-
-}
-.body{
-  background-color: red;
-}
+.body{background-color:red;}
