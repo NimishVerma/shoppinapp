@@ -1,7 +1,32 @@
-body{
-  background-color: blue;
-}
-#quant
-{
-  float:none;display:inline
-}
+    body{
+      background-color: blue;
+    }
+    #quant
+    {
+      float:none;display:inline
+    }
+    .movieItem{
+      width: 33.33%;
+      float: left;
+      text-align: center;
+      cursor: pointer;
+      height:300px;
+      max-width: 100%;
+      background-size: auto 100%!important;
+      background-repeat: no-repeat!important;
+      color:orange;
+
+
+
+    }
+    .Thor{
+      background  : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ11Gr83huxzQeni3lD5G7qjTzed5tfedBs14kY2LVG7JOik8P9IEk6uw") center center;
+
+    }
+    .CaptainAmerica{
+      background: url("http://cdn.playbuzz.com/cdn/8ace370e-0453-4890-8fea-995f32ac9530/5efa0fd9-4850-47d4-814b-af367ab3f973.jpg") center center;
+
+    }
+    .Conjuring{
+      background: url("http://t2.gstatic.com/images?q=tbn:ANd9GcQnHDbJFDDZYC5g9gHa6-NqBE8JUet_iRIPXJym8CtaHsVQa76M") center center;
+    }

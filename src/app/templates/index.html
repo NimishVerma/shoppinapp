@@ -1,0 +1,24 @@
+<h1>{{title}}</h1>
+  <h3>Welcome to your cart</h3>
+  <div class="col-md-8 ItemsBox">
+<div class="row">
+
+<div class="col-md-12">
+
+
+  <ul style='list-style-type:none;'>
+
+
+  <div  *ngFor="let movie of movieList" (click)="selectedMovie(movie)" class="col-md-4 movieItem {{movie[0].split(' ').join('')}}">
+    <li >{{movie[0]}}</li></div>
+
+  </ul>
+</div>
+</div>
+  </div>
+  <div class="col-md-4 box">
+Cart:<ul><li *ngFor="let item of cart">{{item[0]}} x <div id="quant"  [ngStyle]="{'color': item[2]}">
+{{item[1]}}
+</div></li></ul> </div>
+
+<my-form></my-form>
