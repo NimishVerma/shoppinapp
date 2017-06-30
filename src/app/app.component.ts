@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   styleUrls:['./app.component.css'],
-
   template: `<h1>{{title}}</h1>
     <h3>Welcome to your cart</h3>
     <div class="col-md-6 ItemsBox">
@@ -13,7 +12,7 @@ import { Component } from '@angular/core';
     </ul>
     </div>
     <div class="col-md-6 box">
-  Cart:<ul><li *ngFor="let item of cart">{{item[0]}} x <div style="float:none;display:inline" [ngStyle]="{'color': item[2]}">
+  Cart:<ul><li *ngFor="let item of cart">{{item[0]}} x <div id="quant"  [ngStyle]="{'color': item[2]}">
   {{item[1]}}
 </div></li></ul> </div>`,
 })
